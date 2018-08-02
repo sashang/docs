@@ -35,7 +35,7 @@ Defines top-level router used for the application. It's calling `IApplicationBui
 ```fsharp
 application {
     ...
-    router myRouter
+    use_router myRouter
 }
 ```
 
